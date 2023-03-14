@@ -13,7 +13,7 @@ html{
 
 /* -----------------------------nav-bar styles----------------------------- */
 
-#navbar{
+#nav-menu{
 
     width: 100%;
     font-family: sans-serif;
@@ -23,31 +23,31 @@ html{
     background-color: #2C3639;
 }
 
-#navbar #max-width{
+#nav-menu #max-width{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-#navbar .logo a{
+#nav-menu .logo a{
     color: #DCD7C9;
     font-size: 40px;
     font-weight: 600;
     text-decoration: none;
 }
 
-#navbar .logo a span{
+#nav-menu .logo a span{
     color: #A27B5C;
     transition: all 0.3s ease;
 }
 
-#navbar #menu li{
+#nav-menu #menu li{
     list-style: none;
     display: inline-block;
     
 }
 
-#navbar #menu li a{
+#nav-menu #menu li a{
     display: block;
     color: #DCD7C9;
     font-size: 20px;
@@ -64,7 +64,7 @@ html{
     cursor: pointer;
 }
 
-#navbar #menu li a:hover{
+#nav-menu #menu li a:hover{
     color: #A27B5C;
 }
 
