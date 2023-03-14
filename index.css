@@ -14,13 +14,13 @@ html{
 /* -----------------------------nav-bar styles----------------------------- */
 
 #navbar{
-    position: fixed;
+
     width: 100%;
     font-family: sans-serif;
     transition: all 0.3s ease;
     z-index: 999;
     padding: 15px 0px;
-    background-color: #3F4E4F;
+    background-color: #2C3639;
 }
 
 #navbar #max-width{
@@ -33,6 +33,7 @@ html{
     color: #DCD7C9;
     font-size: 40px;
     font-weight: 600;
+    text-decoration: none;
 }
 
 #navbar .logo a span{
@@ -43,31 +44,105 @@ html{
 #navbar #menu li{
     list-style: none;
     display: inline-block;
+    
 }
 
 #navbar #menu li a{
     display: block;
     color: #DCD7C9;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 25px;
+    align-items: center;
     transition: colour 0.3s ease;
+    text-decoration: none;
 }
 
 #nav-btn{
     color: #DCD7C9;
     font-size: 23px;
     cursor: pointer;
-    display: none;
 }
 
-/* -----------------------------back-to-top-btn----------------------------- */
-
-.back-to-top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    display: none;
+#navbar #menu li a:hover{
+    color: #A27B5C;
 }
+
+/* -----------------------------home section----------------------------- */
+
+#home{
+    display: flex;
+    background: url("https://64.media.tumblr.com/fad698de81abf1f122ea815789e2d757/1ed9c10b867a1f1f-ca/s500x750/7ecc332ca2e0b210140d8f4b1ccfed85b0f7efb2.gifv") no-repeat center;
+    height: 90vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+#home #max-width{
+    width: 100%;
+    display: flex;
+}
+
+#home-content{
+    background-color:  rgba(39, 48, 49, 0.714) ;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+#home #home-content #text-1{
+    font-size: 35px;
+} 
+
+#home #home-content #text-2{
+    font-size: 65px;
+    font-weight: 600;
+    
+}
+
+#home #home-content #text-3{
+    font-size: 40px;
+    margin: 5px 0px;
+}
+
+#home #home-content #text-3 span{
+    color: #d15f39;
+    font-weight: 500;
+}
+
+#home #home-content a{
+    display: inline-block;
+    background: #d15f39;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #263235;
+    transition: all 0.3s ease;
+}
+
+#home #home-content a:hover{
+    color: #DCD7C9;
+    background-color: #2c3639;
+    border: 2px solid #d15f39;
+}
+
+#home #max-width{
+    margin: auto;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    
+    
+}
+
+
+
+
+
+
 
 
