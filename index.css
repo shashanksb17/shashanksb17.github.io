@@ -14,12 +14,14 @@ html{
 /* -----------------------------nav-bar styles----------------------------- */
 
 #nav-menu{
+    overflow: hidden;
     width: 100%;
     font-family: sans-serif;
     transition: all 0.3s ease;
     z-index: 999;
     padding: 15px 0px;
     background-color: #2C3639;
+
 }
 
 #nav-menu #max-width{
@@ -78,7 +80,9 @@ html{
     background-size: cover;
     background-attachment: fixed;
     font-family: sans-serif;
+
 }
+
 
 #home #max-width{
     width: 100%;
@@ -153,7 +157,7 @@ html{
 #about-section #title{
     text-align: center;
     font-family: "Poppins", sans-serif;
-    padding: 50px;
+    padding: 75px;
     font-size: 35px;
 }
 
@@ -192,13 +196,13 @@ html{
     text-align: justify;
 }
 
-#about #about-content #column-right #text{
+#about #about-content #column-right #user-detail-name{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-#about #about-content #column-right #text span{
+#about #about-content #column-right #user-detail-name span{
     color: #A27B5C;
 
 }
@@ -227,7 +231,7 @@ html{
     border: 2px solid #A27B5C;
 }
 
-#about #about-content #column-right #user-detail-name #text{
+#about #about-content #column-right #user-detail #user-detail-name{
     font-size: 35px;
 }
 
@@ -236,5 +240,15 @@ html{
     line-height: 1.5;
 }
 
+/* -----------------------------about section----------------------------- */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
 
 
