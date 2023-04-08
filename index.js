@@ -11,5 +11,7 @@ window.onscroll = function() {myFunction()};
       }
     }
 
-
+    function resume(){
+      window.open("https://drive.google.com/file/d/11_-r_h6_JgUhM2Dp9SmyMQJFasghLrMJ/view?usp=share_link","_blank")
+    }
 
