@@ -69,7 +69,7 @@ html{
     text-decoration: none;
 }
 
-#nav-btn{
+.nav-btn{
     color: #DCD7C9;
     font-size: 23px;
     cursor: pointer;
