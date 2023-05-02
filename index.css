@@ -69,7 +69,7 @@ html{
     text-decoration: none;
 }
 
-.nav-btn{
+#nav-btn{
     color: #DCD7C9;
     font-size: 23px;
     cursor: pointer;
@@ -81,7 +81,7 @@ html{
 
 /* -----------------------------home section----------------------------- */
 
-#home{
+#homes{
     display: flex;
     background: url("https://64.media.tumblr.com/fad698de81abf1f122ea815789e2d757/1ed9c10b867a1f1f-ca/s500x750/7ecc332ca2e0b210140d8f4b1ccfed85b0f7efb2.gifv") no-repeat center;
     height: 90vh;
@@ -94,7 +94,7 @@ html{
 }
 
 
-#home #max-width{
+#homes #max-width{
     width: 100%;
     display: flex;
 }
@@ -105,27 +105,27 @@ html{
     border-radius: 20px;
 }
 
-#home #home-content #text-1{
+#homes #home-content #text-1{
     font-size: 35px;
 } 
 
-#home #home-content #text-2{
+#homes #home-content #text-2{
     font-size: 65px;
     font-weight: 600;
     
 }
 
-#home #home-content #text-3{
+#homes #home-content #text-3{
     font-size: 40px;
     margin: 5px 0px;
 }
 
-#home #home-content #text-3 span{
+#homes #home-content #text-3 span{
     color: #A27B5C;
     font-weight: 500;
 }
 
-#home #home-content a{
+#homes #home-content a{
     display: inline-block;
     background: #A27B5C;
     color: #fff;
@@ -138,13 +138,13 @@ html{
     transition: all 0.3s ease;
 }
 
-#home #home-content a:hover{
+#homes #home-content a:hover{
     color: #DCD7C9;
     background-color: #2c3639;
     border: 2px solid #A27B5C;
 }
 
-#home #max-width{
+#homes #max-width{
     margin: auto;
     padding-left: 5%;
     padding-bottom: 5%;
