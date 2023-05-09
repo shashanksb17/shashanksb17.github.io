@@ -24,12 +24,24 @@
                 <li><a href="#skills"  class="nav-link skills" id="nav-btn">Skills</a></li>
                 <li><a href="#projects"  class="nav-link projects" id="nav-btn">Project</a></li>
                 <li><a href="#contact"  class="nav-link contact" id="nav-btn">Contact</a></li>
-                <li onclick="resume()" class="nav-link resume" >
-                    <a id="resume-button-1"
+                <li class="nav-link resume" >
+                    <button onclick="resume()" id="resume-button-1" class="btn" >
+                        <a id="resume-link-1" href="./files/Shashank_Basutkar_Resume1.pdf" 
+                        download="/Shashank_Basutkar_Resume1.pdf"> 
+                        Resume <i class="fas fa-download"></i>
+                    </a> </button>
+                
+
+
+                    <!-- <a id="resume-button-1"
                      href="./files/Shashank_Basutkar_Resume1.pdf"
                     target="_blank"
-                    download="">Resume</a>
+                    download="">Resume</a> -->
+                    <!-- onclick="resume()"  -->
                 </li>
+
+                
+                
                 <!-- <li id="resume-button-1" class="nav-link resume"><a target="_blank"  id="resume-link-1" href="https://drive.google.com/file/d/11_-r_h6_JgUhM2Dp9SmyMQJFasghLrMJ/view?usp=share_link" >Resume</a></li> -->
             </ul>
         </div>
@@ -79,8 +91,16 @@
                                 Applications Across Multiple APIs And Databases. Looking Forward To Developing Skills In A Challenging Work
                                 Environments like HTML, CSS, Node.js, Express.js, Mongo.
                             </p>
-                            <button id="resume-link-1" id="resume-button-1"><a target="_blank" href="https://drive.google.com/file/d/11_-r_h6_JgUhM2Dp9SmyMQJFasghLrMJ/view?usp=share_link" >Preview CV</a></button> 
-                            <button id="resume-link-2" ><a download="" id="resume-button-2" href="./files/Shashank_Basutkar_Resume1.pdf" download>Download Cv</a></button> 
+                            <!-- <button id="resume-link-1" id="resume-button-1"><a target="_blank" href="https://drive.google.com/file/d/11_-r_h6_JgUhM2Dp9SmyMQJFasghLrMJ/view?usp=share_link" >Preview CV</a></button>  -->
+                            <!-- <button id="resume-link-2" ><a download="" id="resume-button-2" href="./files/Shashank_Basutkar_Resume1.pdf" download>Download Cv</a></button>  -->
+                            <button onclick="resume()" id="resume-button-2" class="btn" >
+                                <a id="resume-link-2" href="./files/Shashank_Basutkar_Resume1.pdf" 
+                                download="/Shashank_Basutkar_Resume1.pdf"> 
+                                Resume <i class="fas fa-download"></i>
+                            </a> </button>
+                        
+
+
                         </div>          
                     </div>
                 </div>
@@ -89,6 +109,7 @@
 
         </div>
     </section>
+    
     
 <!-------------------------skills-section-------------------------------- -->
 
@@ -226,6 +247,56 @@
     </div>
 </section>
 
+<!-- ========================================================================== -->
+
+<div id="github-stats">
+    <div class="skills-head">
+    <h1 class="heading">GitHub <span> Statistics</span></h1>
+    </div>
+    <div class="container">
+      <div class="react-activity-calendar calendar">
+       
+      </div>
+     
+        <br />
+        <div class="stats">
+          <a href="https://github.com/shashanksb17/">
+           
+         
+ 
+            <img width="40%"
+              id="github-streak-stats"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=shashanksb17&theme=rising-sun&hide_border=true&stroke=0000&background=060A0CD0"
+              alt=""
+            />
+            <br />
+            <br />
+
+            <img width="40%"
+              id="github-stats-card"
+              src="https://github-readme-stats.vercel.app/api?username=shashanksb17&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117"
+            />
+
+            <br />
+            <br />
+
+            <img width="40%"
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=shashanksb17&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117"
+              id="github-top-langs"
+            />
+            <br />
+            <br />
+            <img width="100%"
+            src="https://i.postimg.cc/hGhBjsmN/calender.jpg"
+            id="github-top-langs"
+          />
+           
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- 
 <section id="git-status">
     <div id="max-width">
         <div id="github-stats">
@@ -239,9 +310,7 @@
                     class="react-activity-calendar" 
                     />
                 </div>
-                <!-- <div class="react-activity-calendar" >
-                    
-              </div> -->
+                
              
                 <br />
                     <div class="stats">
@@ -282,7 +351,7 @@
         </div>
     </div>
     
-</section>
+</section> -->
 
 <!-- -----------------------skills-section-------------------------------- -->
 
