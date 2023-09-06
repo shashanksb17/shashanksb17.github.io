@@ -7,6 +7,7 @@ $(document).ready(function () {
       $(".navbar").removeClass("sticky");
     }
 
+    
     // change name in navbar
     if (this.scrollY > 1000) {
       document.querySelector(".logo a").innerHTML = "Sha<span>shank</span>"
